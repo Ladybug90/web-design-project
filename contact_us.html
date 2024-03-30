@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <a href="index.html" >Home</a>
+        <a href="about_us.html" >Abot Us</a>
+        <a href="contact_us.html">Contact Us</a>
+    <h1 style="color: cornflowerblue;">Contact Us</h1>
+    <hr/>
+
+    <h2>Locations</h2>
+    <table>
+        <tr>
+            <th>Locations</th>
+            <th>Opening Hours</th>
+            <th>Email Address</th>
+            <th>Phone Number</th>
+        </tr>
+            <td>Clarendon</td>
+            <td>8AM - 4PM</td>
+            <td>travelhorizon@horizongroup.com</td>
+            <td>1876-987-7667</td>
+        </tr>
+            <td>Montego Bay</td>
+            <td>8AM - 5PM</td>
+            <td>travelhorizon@horizongroup.com</td>
+            <td>1876-987-7676</td>
+        </tr>
+            <td>Kingston</td>
+            <td>8AM - 6PM</td>
+            <td>travelhorizon@horizongroup.com</td>
+            <td>1876-987-7678</td>
+    </table>
+    <h2>General Inquiries</h2>
+    <form action="confirmation.html">
+        <label for="fullname">Name: *</label><br/>
+        <input required type="text" id="fullname" name="fullname"/>
+        <br/><br/>
+        <label for="email"> Email Address: *</label><br/>
+        <input required type="email" id="email" name="emailaddress"/>
+        <br/><br/>
+        <label> Are you employed?: *</label><br/>
+        <input required type="radio" value="Y" name="employed"/>Yes
+        <input required type="radio" value="N" name="employed"/>No
+        <br/><br/>
+        <label required for="enquiry">State you Enquiry *</label>
+        <br/>
+        <textarea cols="50" rows="10" maxlength="300" id="enquiry" name="enquiry"></textarea>
+        <br/>
+        <input type="submit"/>
+
+
+    </form>
+</body>
+</html>
