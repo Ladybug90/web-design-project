@@ -1,0 +1,58 @@
+h1{
+    color: rgb(58, 10, 232);
+}
+h2{
+    color: green;
+    text-decoration: overline;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+p,{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#banner{
+    background-color: rgb(253, 202, 0);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+#banner p{
+    margin: 0;
+}
+#nav, nav{
+    background-color: #0a88d7;
+        padding: 10px;
+        text-align: center;
+}
+#nav a, nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+    margin-right: 8px;
+    padding: 10px;
+}
+#nav a:hover{
+    background-color: #0cc5cf;
+}
+
+nav a:hover{
+    background-color: #0cc5cf;
+}
+#footer{
+    background-color: #0a88d7;
+    min-height: 150px;
+    text-align: center;
+}
+#footer a, footer a{
+    color: white;
+     text-decoration: overline;
+}
+#main, main{
+    width: 80%;
+    margin: 0 auto;
+}
+article{
+    margin-bottom: 50px;
+}
